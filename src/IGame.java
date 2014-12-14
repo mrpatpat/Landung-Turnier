@@ -1,5 +1,4 @@
-
-public interface InterfaceEngine {
+public interface IGame {
 	
 	/**
 	 * Signalisiert dem jeweiligen Programm, dass es
