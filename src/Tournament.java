@@ -6,7 +6,7 @@ public class Tournament {
 	public Tournament(IGame gameA, IGame gameB) {
 		games = new IGame[2];
 		games[0] = gameA;
-		games[1] = gameA;
+		games[1] = gameB;
 		
 		points = new int[2];
 		points[0] = 0;
