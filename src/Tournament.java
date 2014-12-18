@@ -35,7 +35,9 @@ public class Tournament {
 
 		// determine second player and notify him
 		IGame second = first == games[0] ? games[1] : games[0];
+		
 		second.youAreSecond();
+		first.youAreFirst();
 		
 		// running variable
 		boolean running = true;
